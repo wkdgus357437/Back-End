@@ -56,6 +56,7 @@ public class AdminBoardController {
 		return adminBoardService.getAdminBoard(adminBoardSeq);
 	}
 	
+	//관리자 게시판 검색
 	@GetMapping(path = "adminBoardSearch")
 	public List<AdminBoardDTO> adminBoardSearch(@RequestParam Map<String, String> map){
 		return adminBoardService.adminBoardSearch(map);
