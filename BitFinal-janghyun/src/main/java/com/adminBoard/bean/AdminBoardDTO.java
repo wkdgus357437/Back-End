@@ -24,7 +24,7 @@ import lombok.Data;
 )
 public class AdminBoardDTO {
 	@Id
-	@GeneratedValue(strategy = GenerationType.SEQUENCE, generator = "ADMINBOARD_SEQ_GENERATOR")
+	@GeneratedValue(strategy = GenerationType.SEQUENCE, generator = "ADMINBOARD_SEQ_GENERATOR") //seq
 	@Column(name = "adminBoardSeq")
 	private int adminBoardSeq;
 	
