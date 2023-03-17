@@ -9,10 +9,15 @@ import org.springframework.web.bind.annotation.ResponseBody;
 @Controller
 public class MovielistmainController {
 	
+	// @GetMapping(value="/")
+	// @ResponseBody
+	// public String index() {
+	// 	return "안녕하세요 리액트!!";
+	// }
 	@GetMapping(value="/")
 	@ResponseBody
 	public String index() {
-		return "안녕하세요 리액트!!";
+		return "https://janghyun-bitbox-project.netlify.app";
 	}
 
 }
