@@ -6,12 +6,14 @@ import org.springframework.boot.autoconfigure.domain.EntityScan;
 import org.springframework.context.annotation.ComponentScan;
 import org.springframework.data.jpa.repository.config.EnableJpaRepositories;
 import org.springframework.scheduling.annotation.EnableScheduling;
+import org.springframework.web.bind.annotation.CrossOrigin;
 
 @EntityScan(basePackages = {"movie.bean","com.main.bitfinal.memberService.memberEntity","com.adminBoard.bean","user.bean","store.bean"})
 @EnableJpaRepositories(basePackages = {"movie.dao", "com.main.bitfinal.memberService.repository","com.adminBoard.dao","user.dao","store.dao"})
 @ComponentScan(basePackages = {"com.main.bitfinal","com.adminBoard.*","user.*","store.*", "movielistmain.controller","movielistmaster.controller", "movie.*"})
 @SpringBootApplication
 @EnableScheduling
+@CrossOrigin("https://jjh.herokuapp.com/")
 public class BitFinalApplication {
 
     public static void main(String[] args) {
