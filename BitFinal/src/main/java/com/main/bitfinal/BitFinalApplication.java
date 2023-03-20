@@ -13,7 +13,6 @@ import org.springframework.web.bind.annotation.CrossOrigin;
 @ComponentScan(basePackages = {"com.main.bitfinal","com.adminBoard.*","user.*","store.*", "movielistmain.controller","movielistmaster.controller", "movie.*"})
 @SpringBootApplication
 @EnableScheduling
-@CrossOrigin("https://jjh.herokuapp.com/")
 public class BitFinalApplication {
 
     public static void main(String[] args) {
