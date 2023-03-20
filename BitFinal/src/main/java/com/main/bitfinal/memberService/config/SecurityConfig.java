@@ -15,7 +15,7 @@ import org.springframework.security.web.SecurityFilterChain;
 import org.springframework.stereotype.Component;
 import org.springframework.web.bind.annotation.CrossOrigin;
 
-@CrossOrigin("http://localhost:3000")
+@CrossOrigin
 @RequiredArgsConstructor
 @Configuration
 @EnableWebSecurity

@@ -14,7 +14,7 @@ import com.main.bitfinal.memberService.service.MypageService;
 
 import store.bean.UserDTO;
 
-@CrossOrigin ("http://localhost:3000")
+@CrossOrigin
 @RestController //@RestController = @Controller + @ResponseBody
 @RequestMapping(value = "myPage")
 public class MypageController {

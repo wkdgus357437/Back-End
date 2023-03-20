@@ -17,7 +17,7 @@ import org.springframework.web.bind.annotation.*;
 import java.util.List;
 import java.util.Optional;
 
-@CrossOrigin("http://localhost:3000")
+@CrossOrigin
 @RestController
 @RequiredArgsConstructor // 생성자 자동 생성 by 롬복 (autowired 필요없음)
 @RequestMapping("/member")
