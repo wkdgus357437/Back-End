@@ -15,6 +15,7 @@ import org.springframework.security.web.SecurityFilterChain;
 import org.springframework.stereotype.Component;
 import org.springframework.web.bind.annotation.CrossOrigin;
 
+// @CrossOrigin 로컬없앰
 @CrossOrigin
 @RequiredArgsConstructor
 @Configuration
